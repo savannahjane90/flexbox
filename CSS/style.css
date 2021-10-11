@@ -85,7 +85,7 @@ div > div {
     color: black;*/
     background-color: rgb(60, 60, 100);
     border-color: rgb(30, 30, 70);
-    color: rgb(240, 240, 255);
+    color: white;
     flex: 100%;
     font-size: 2em;
     padding: 15px 10px 15px 10px;
