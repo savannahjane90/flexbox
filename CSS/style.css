@@ -43,16 +43,21 @@ div > div {
     font-family: Arial;
     font-size: 1.15em; 
     border: solid; 
-    border-width: 1px 1px 5px 1px;    
+    border-width: 1px 1px 4.5px 1px;    
     border-radius: 10px;
     color: white;
     flex: 1;
 }
 
+div>div:active {
+    border-width: 3.5px 1px 2px 1px;
+    border-radius: 10px;
+}
 
 .digit {
     background-color: rgb(45, 75, 200);
     border-color: rgb(0, 15, 140);
+    
 }
 
 .symbol {
