@@ -34,7 +34,7 @@ header {
 
 }
 
-div > div {
+div>input {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -49,8 +49,8 @@ div > div {
     flex: 1;
 }
 
-div>div:active {
-    border-width: 3.5px 1px 2px 1px;
+input:active {
+    border-width: 3px 1px 2.5px 1px;
     border-radius: 10px;
 }
 
@@ -85,13 +85,13 @@ div>div:active {
     justify-content: flex-end;
     border: solid;
     border-width: 8.5px 4px 3px 4px;
-    /*background-color: rgb(200, 200, 230);
-    border-color: rgb(130, 130, 140);
-    color: black;*/
+    height: 1.05em;
     background-color: rgb(60, 60, 100);
     border-color: rgb(30, 30, 70);
     color: white;
     flex: 100%;
     font-size: 2em;
     padding: 15px 10px 15px 10px;
+    margin: 10px 7px 10px 7px;
+    border-radius: 10px;
 }
