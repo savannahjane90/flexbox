@@ -82,6 +82,7 @@ input:active {
 }
 
 #display {
+    display: flex;
     justify-content: flex-end;
     border: solid;
     border-width: 8.5px 4px 3px 4px;
@@ -93,5 +94,5 @@ input:active {
     font-size: 2em;
     padding: 15px 10px 15px 10px;
     margin: 10px 7px 10px 7px;
-    border-radius: 10px;
+    border-radius: 7px;
 }
