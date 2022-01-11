@@ -260,12 +260,12 @@ for(x of mappy) {
 }
 */
 
-let turnOn = document.querySelector("#on");
-let turnOff = document.querySelector("#off");
+const turnOn = document.querySelector("#on");
 turnOn.addEventListener("click", function () {
     document.querySelector("div > #display").innerHTML = 0;
 });
 
+const turnOff = document.querySelector("#off");
 turnOff.addEventListener("click", function () {
     document.querySelector("div > #display").innerHTML = null;
 })
