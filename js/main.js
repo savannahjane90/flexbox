@@ -262,17 +262,25 @@ for(x of mappy) {
 
 
 
+//make on button functional
 
-const turnOn = document.querySelector("#on");
+const onButton = document.querySelector("#on");
 
-turnOn.addEventListener("click", function () {
+function displayZero() {
     document.querySelector("#display").innerHTML = 0;
-    });
+    };
 
-const turnOff = document.querySelector("#off");
+onButton.addEventListener("click", displayZero);
 
-turnOff.addEventListener("click", function () {
+
+//make off button functional
+
+const offButton = document.querySelector("#off");
+
+function displayNull() {
     document.querySelector("#display").innerHTML = null;
-    });
+    };
+
+offButton.addEventListener("click", displayNull);
 
 
