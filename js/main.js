@@ -260,14 +260,19 @@ for(x of mappy) {
 }
 */
 
+
+
+
 const turnOn = document.querySelector("#on");
+
 turnOn.addEventListener("click", function () {
-    document.querySelector("div > #display").innerHTML = 0;
-});
+    document.querySelector("#display").innerHTML = 0;
+    });
 
 const turnOff = document.querySelector("#off");
+
 turnOff.addEventListener("click", function () {
-    document.querySelector("div > #display").innerHTML = null;
-})
+    document.querySelector("#display").innerHTML = null;
+    });
 
 
